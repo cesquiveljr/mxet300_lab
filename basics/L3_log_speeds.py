@@ -8,8 +8,8 @@ while True:
     L1_log.tmpFile(dot[1], "Theta_dot")
 
     speed = L2_kinematics.getPdCurrent() 
-    L1_log.tmpFile(speed[0], "Left Wheel") #left wheel
-    L1_log.tmpFile(speed[1], "Right Wheel") #right wheel
+    L1_log.tmpFile(speed[0], "Left_Wheel") #left wheel
+    L1_log.tmpFile(speed[1], "Right_Wheel") #right wheel
     print("X dot (m/s):", dot[0],"Theta dot (rad/s):", dot[1], "Chassis Speed (rad/s):", speed[0], "Wheel Speed (rad/s):", speed[1])
     time.sleep(0.2)
 
